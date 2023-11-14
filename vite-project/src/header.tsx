@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose} from "react-icons/ai"
 import {Link} from "react-scroll"
+import logo from "/images/groottekstlogowit.png"
 
 const Header : React.FC = () =>{
 
@@ -13,7 +14,7 @@ const Header : React.FC = () =>{
     return(
         <>
             <header className="bg-catalpa-green text-white py-4 items-center fixed w-full">
-                    <img src="/images/groottekstlogowit.png" alt="big catalpa logo" className="w-60 md:w-80 m-auto mb-2"/>
+                    <img src={logo} alt="big catalpa logo" className="w-60 md:w-80 m-auto mb-2"/>
                     <nav className="hidden md:flex justify-center">
                     <ul className="sofia flex space-x-16">
                         <li>

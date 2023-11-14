@@ -1,3 +1,5 @@
+import logo_kleur from "/images/logo_catalpa_kleur.png";
+
 const Missie : React.FC = () =>{
     return(
         <>
@@ -12,7 +14,7 @@ const Missie : React.FC = () =>{
                         Op deze plek ontdekken jongeren de schoonheid van de natuur, zorgen ze voor planten en dieren. We streven naar een omgeving van structuur, ritme en eenvoudige handelingen, waar een warme en familiale sfeer heerst. Hier, te midden van de natuur, kunnen jongeren volledig zichzelf zijn en werken aan hun persoonlijke groei en welzijn.
                     </p>
                 </div>
-                <img src="/images/logo_catalpa_kleur.png" alt="logo van catalpa met boom" className="w-[250px] m-auto" />
+                <img src={logo_kleur} alt="logo van catalpa met boom" className="w-[250px] m-auto" />
             </div>
             </div>
         </>
