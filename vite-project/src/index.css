@@ -1,0 +1,45 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    color: #0A2C00;
+}
+
+@font-face {
+    font-family: SofiaProSoftLight;
+    src: url('./assets/fonts/SofiaProSoftLight.otf');
+}
+
+@font-face {
+    font-family: argentcf-thin;
+    src: url('./assets/fonts/argentcf-thin.otf');
+}
+
+.bg-catalpa-green {
+    background-color: #64942c;
+}
+
+.catalpa-green {
+    color: #64942c;
+}
+
+.bg-dark-green{
+    background-color: #0A2C00;
+}
+
+.dark-green{
+    color: #0A2C00;
+}
+
+.sofia {
+    font-family: "SofiaProSoftLight", sans-serif;
+}
+
+.argent {
+    font-family: "argentcf-thin", sans-serif;
+}
