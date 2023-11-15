@@ -5,9 +5,6 @@ import Missie from './missie';
 import WieBenIk from './wiebenik';
 
 function App() {
-
-  document.documentElement.lang = 'nl';
-
   return (
     <>
       <Header/>
