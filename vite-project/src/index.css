@@ -43,3 +43,7 @@ main{
 .argent {
     font-family: "argentcf-thin", sans-serif;
 }
+
+.custom-bg{
+    background-position: 0% 30%;
+}

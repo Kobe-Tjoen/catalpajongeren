@@ -1,10 +1,12 @@
+import catalpaboom from "/images/catalpaboom.jpg"
+
 const Plaats : React.FC = () =>{
     return(
         <>
             <div id='plaats' className='container mx-auto p-8 argent text-justify'>
                 <h2 className='text-4xl md:text-5xl w-full border-b text-center font-bold  mt-8 mb-4 md:mb-8'>De Plek</h2>
                 <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16'>
-                    <img className='w-[300px] m-auto rounded' src="/images/catalpaboom.JPG" alt="mooie boom" />
+                    <img className='w-[300px] m-auto rounded' src={catalpaboom} alt="mooie boom" />
                     <div className="col-span-2">
                         <div className='my-8'>
                             <h3 className='text-2xl font-bold text-center mb-4'>Net na de Tweede Wereldoorlog kochten mijn grootouders dit huis.</h3>
