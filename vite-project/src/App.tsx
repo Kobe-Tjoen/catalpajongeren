@@ -5,15 +5,13 @@ import Missie from './missie';
 import WieBenIk from './wiebenik';
 
 function App() {
+
   return (
     <>
       <Header/>
       <main className='h-full pt-28 md:pt-40'>
-        <div className='
-        md:bg-[url("/images/jongentje.jpg")]
-        bg-[url("/images/jongentjeSmallScreen.jpg")]
-        w-full h-screen bg-no-repeat bg-fixed custom-bg'>
-          <h1 className="argent text-white font-bold text-4xl md:text-5xl text-center pt-60 md:pt-20">Groene haven voor jongeren.</h1>
+        <div className='argent custom-bg h-screen w-full bg-cover bg-fixed'>
+          <h1 className='text-3xl md:text-4xl font-bold pt-40 text-center text-white'>Groene haven voor jongeren.</h1>
         </div>
         <Missie/>
         <Plaats/>

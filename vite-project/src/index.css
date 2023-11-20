@@ -45,6 +45,7 @@ main{
 }
 
 .custom-bg {
+    background-image: url('/images/jongentje.jpg');
     background-position: 50% 30%;
     background-size: cover;
 }
