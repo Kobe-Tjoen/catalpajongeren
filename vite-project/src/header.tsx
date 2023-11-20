@@ -27,7 +27,7 @@ const Header : React.FC = () =>{
                             <Link to="groenehaven" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Groene Haven</Link>
                         </li>
                         <li>
-                            <Link to="plaats" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Wie ben ik</Link>
+                            <Link to="marie" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Wie ben ik</Link>
                         </li>
                     </ul>
                     </nav>
