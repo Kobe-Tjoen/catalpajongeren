@@ -44,10 +44,7 @@ main{
     font-family: "argentcf-thin", sans-serif;
 }
 
-.custom-bg{
-    background-position: 0% 30%;
-    background-size: cover; /* Standard */
-    -webkit-background-size: cover; /* Safari (older versions) and iOS */
-    -moz-background-size: cover; /* Firefox */
-    -o-background-size: cover; /* Opera */
+.custom-bg {
+    background-position: 50% 30%;
+    background-size: cover;
 }
