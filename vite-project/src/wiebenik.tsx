@@ -30,10 +30,4 @@ const WieBenIk : React.FC = () =>{
     )
 }
 
-// Tijdens mijn middelbare studies werd algauw duidelijk dat ik niets liever deed dan samen te werken met andere mensen. Ik was actief betrokken bij verschillende verenigingen en organiseerde op school talloze evenementen met als voornaamste doel 'samen zijn met anderen'. Ondanks deze liefde voor samenwerken koos ik na mijn studies Communicatiewetenschappen voor een meer commerciële rol in de reclamewereld.
-// Een paar jaar later begon het onderwijs te roepen en besloot ik opnieuw te studeren, dit keer Taal- en letterkunde omdat ik genoot van het proces van taaloverdracht. Daarna begon ik aan een carrière van 15 jaar als leraar in verschillende vormen van het secundair onderwijs. Wat ik het meeste waardeerde aan lesgeven, was het coachen van mijn leerlingen. Ik was altijd nieuwsgierig naar wat er in hen omging en ik vond niets fijner dan het ontdekken en ontwikkelen van hun talenten. Hoewel ik officieel geen leerlingbegeleider was, heb ik veel leerlingen intensief begeleid bij het overwinnen van uiteenlopende uitdagingen.
-//Na die 15 jaar waagde ik de sprong naar een rol als schooldirecteur. Zelfs in die leidinggevende functie maakte ik altijd tijd vrij voor de leerlingen die extra aandacht nodig hadden.
-//In de lente van 2022 ging echter het licht uit. De overweldigende hoeveelheid prikkels, de voortdurende stress en de eis om constant beschikbaar te zijn, leidden tot een totale burn-out.
-
-
 export default WieBenIk;
