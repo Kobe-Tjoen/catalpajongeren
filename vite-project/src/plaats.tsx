@@ -9,13 +9,11 @@ const Plaats : React.FC = () =>{
                     <img className='w-[300px] m-auto rounded' src={catalpaboom} alt="mooie boom" />
                     <div className="col-span-2">
                         <div className='my-8'>
-                            <h3 className='text-2xl font-bold text-center mb-4'>Net na de Tweede Wereldoorlog kochten mijn grootouders dit huis.</h3>
-                            <p>Het kreeg al snel de naam <b>‘De Catalpa’</b>, ter ere van de meer dan honderd jaar oude boom die majestueus in het midden van de tuin staat. Mijn grootouders stonden bekend om hun gastvrijheid en ‘De Catalpa’ werd al snel een geliefde ontmoetingsplek voor vrienden en familie om het leven te vieren na de verschrikkingen van de oorlog.</p>
+                            <p>Net na de Tweede Wereldoorlog kochten mijn grootouders dit huis. Het kreeg al snel de naam <b>‘De Catalpa’</b>, ter ere van de meer dan honderd jaar oude boom die majestueus in het midden van de tuin staat. Mijn grootouders stonden bekend om hun gastvrijheid en ‘De Catalpa’ werd al snel een geliefde ontmoetingsplek voor vrienden en familie om het leven te vieren na de verschrikkingen van de oorlog.</p>
                             <p>Na het overlijden van mijn grootvader besloot mijn grootmoeder om alleen nog tijdens de zomermaanden in haar geliefde Catalpa te verblijven. Dit maakte dat het huis een toevluchtsoord werd voor vele familieleden tijdens verbouwingen, scheidingen en verhuizingen.</p>
                         </div>
                         <div className='my-8'>
-                        <h3 className='text-2xl font-bold text-center mb-4'>In 2004 kochten mijn man en ik dit huis en renoveerden het volledig.</h3>
-                        <p>In de lijn van de geest van mijn grootouders hebben we hier ook talloze vrienden en familie verwelkomd.
+                        <p>In 2004 kochten mijn man en ik dit huis en renoveerden het volledig. In de lijn van de geest van mijn grootouders hebben we hier ook talloze vrienden en familie verwelkomd.
 
                             Nu is het mijn wens deze oase van rust beschikbaar te stellen voor jongeren die behoefte hebben aan een plek om tot zichzelf te komen.
 

@@ -14,7 +14,7 @@ const Header : React.FC = () =>{
     return(
         <>
             <header className="bg-catalpa-green text-white py-4 items-center fixed w-full">
-                    <img src={logo} alt="big catalpa logo" className="w-60 md:w-80 m-auto mb-2"/>
+                    <img src={logo} alt="big catalpa logo" className="w-52 md:w-72 m-auto mb-2"/>
                     <nav className="hidden md:flex justify-center">
                     <ul className="sofia flex space-x-16">
                         <li>

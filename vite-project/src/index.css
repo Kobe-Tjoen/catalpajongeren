@@ -11,13 +11,13 @@ main{
 }
 
 @font-face {
-    font-family: SofiaProSoftLight;
-    src: url('./assets/fonts/SofiaProSoftLight.otf');
+    font-family: LouisGeorgeCage;
+    src: url('./assets/fonts/LouisGeorgeCafe.ttf');
 }
 
 @font-face {
-    font-family: argentcf-thin;
-    src: url('./assets/fonts/argentcf-thin.otf');
+    font-family: LinLibertine_R;
+    src: url('./assets/fonts/LinLibertine_R.ttf');
 }
 
 .bg-catalpa-green {
@@ -37,11 +37,11 @@ main{
 }
 
 .sofia {
-    font-family: "SofiaProSoftLight", sans-serif;
+    font-family: "LouisGeorgeCage", sans-serif;
 }
 
 .argent {
-    font-family: "argentcf-thin", sans-serif;
+    font-family: "LinLibertine_R", sans-serif;
 }
 
 .custom-bg {
