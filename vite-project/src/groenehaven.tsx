@@ -10,7 +10,7 @@ const GroeneHaven : React.FC = () =>{
                     <h2 className="md:text-5xl text-4xl text-center border-b mb-8 font-semibold">Groene haven voor jongeren</h2>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div className="mb-8 m-auto">
+                        <div className="mb-8 mx-auto">
                             <h3 className="text-3xl  font-semibold">Voor wie?</h3>
                             <p className="text-2xl">Kinderen en jongeren van 11 tot 16 jaar die:</p>
                             <ul className="p-4 list-disc space-y-2">
@@ -22,7 +22,7 @@ const GroeneHaven : React.FC = () =>{
                         <img src={tweekatten} alt="twee poezen het poortje" className="w-[350px] rounded m-auto mb-8"/>
                         
                         <img src={bijenkorven} alt="bijenkorven in de tuin" className="w-[400px] rounded m-auto mb-8 col-auto"/>
-                        <div className="m-auto mb-8">
+                        <div className="mx-auto mb-8">
                             <h3 className="text-3xl font-semibold">Wat gaan we doen?</h3>
                             <ul className="p-4 list-disc space-y-1">
                                 <li>Onderhouden van tuin en moestuin</li>
@@ -35,7 +35,7 @@ const GroeneHaven : React.FC = () =>{
                             </ul>
                         </div>
 
-                        <div className="m-auto mb-8">
+                        <div className="mx-auto mb-8">
                             <h3 className="text-3xl font-semibold">Hoe?</h3>
                             <ul className="text-lg list-outside list-disc p-4 space-y-2">
                                 <li>Continue begeleiding</li>
@@ -45,8 +45,8 @@ const GroeneHaven : React.FC = () =>{
                         </div>
                         <img src={schaapje} alt="close up van een lief schaapje" className="w-[400px] rounded m-auto mb-8 col-auto" />
 
-
-                        <div className="m-auto">
+                        <img src={moestuin} alt="moestuin" className="m-auto rounded w-[400px]"/>
+                        <div className="mx-auto">
                             <h3 className="text-3xl font-semibold">Hoe ziet een dag eruit?</h3>
                             <ul className="p-4 space-y-2">
                                 <li><b>8u30-9u:</b> aankomst + koffie/thee</li>
@@ -58,7 +58,6 @@ const GroeneHaven : React.FC = () =>{
                                 <li><b>15u-15u30:</b> gezamenlijke meditatieve afsluiter</li>
                             </ul>
                         </div>
-                        <img src={moestuin} alt="moestuin" className="rounded w-[400px]"/>
                     </div>
                 </div>
         </>

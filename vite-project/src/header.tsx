@@ -27,6 +27,9 @@ const Header : React.FC = () =>{
                             <Link to="groenehaven" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Groene Haven</Link>
                         </li>
                         <li>
+                            <Link to="coaching" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Coaching</Link>
+                        </li>
+                        <li>
                             <Link to="marie" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Wie ben ik</Link>
                         </li>
                     </ul>
@@ -47,7 +50,12 @@ const Header : React.FC = () =>{
                                 <li>
                                     <Link to="groenehaven" spy={true} smooth={true} offset={-125} duration={300} className="p-4 border-b  border-white" onClick={handleNav}>groene haven</Link>
                                 </li>
-                                <li><a className="p-4 " href="#">Wie Ben Ik</a></li>
+                                <li>
+                                    <Link to="coaching" spy={true} smooth={true} offset={-125} duration={300} onClick={handleNav} className="p-4 border-b  border-white">Coaching</Link>
+                                </li>
+                                <li>
+                                    <Link to="marie" spy={true} smooth={true} offset={-125} duration={300} className="p-4 border-b  border-white" onClick={handleNav}>groene haven</Link>
+                                </li>
                             </ul>
                         </nav> 
                     </div>
