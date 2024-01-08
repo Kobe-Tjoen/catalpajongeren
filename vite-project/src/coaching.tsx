@@ -1,7 +1,17 @@
+import { motion } from "framer-motion"
+
 const Coaching : React.FC = () =>{
     return (
         <>
-            <div id="coaching" className="container mx-auto mt-8 p-8 text-justify argent">
+            <motion.div 
+            id="coaching" 
+            className="container mx-auto mt-8 p-8 text-justify argent"
+            initial={{opacity: 0, y: -10}}
+            whileInView={{opacity: 1, y: 0}}
+            transition={{duration: 0.4, ease: "easeInOut"}}
+            layout
+            viewport={{amount: 0.1}}
+            >
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 w-full border-b">Coaching</h2>
                 <div className="m-auto md:w-3/4 mt-8">
                     <h3 className="text-3xl  font-semibold">Voor wie?</h3>
@@ -29,7 +39,7 @@ const Coaching : React.FC = () =>{
                     <h3 className="text-3xl  font-semibold">Hoe verloopt een coaching sessie?</h3>
                     <p className="p-4">Een sessie duurt 1,5 uur en is aangepast aan de behoeften van de jongere. De sessies kunnen in de natuur gehouden worden tijdens een wandeling of in de vertrouwde praktijkruimte.</p>
                 </div>
-            </div>
+            </motion.div>
         </>
     )
 }

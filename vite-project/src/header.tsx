@@ -18,19 +18,19 @@ const Header : React.FC = () =>{
                     <nav className="hidden md:flex justify-center">
                     <ul className="sofia flex space-x-16">
                         <li>
-                            <Link to="missie" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Missie</Link>
+                            <Link to="missie" spy={true} smooth={true} offset={-150} duration={150} onClick={handleNav} className="cursor-pointer">Missie</Link>
                         </li>
                         <li>
-                            <Link to="plaats" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">De Plek</Link>
+                            <Link to="plaats" spy={true} smooth={true} offset={-150} duration={150} onClick={handleNav} className="cursor-pointer">De Plek</Link>
                         </li>
                         <li>
-                            <Link to="groenehaven" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Groene Haven</Link>
+                            <Link to="groenehaven" spy={true} smooth={true} offset={-150} duration={150} onClick={handleNav} className="cursor-pointer">Groene Haven</Link>
                         </li>
                         <li>
-                            <Link to="coaching" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Coaching</Link>
+                            <Link to="coaching" spy={true} smooth={true} offset={-150} duration={150} onClick={handleNav} className="cursor-pointer">Coaching</Link>
                         </li>
                         <li>
-                            <Link to="marie" spy={true} smooth={true} offset={-150} duration={300} onClick={handleNav} className="cursor-pointer">Wie ben ik</Link>
+                            <Link to="marie" spy={true} smooth={true} offset={-150} duration={150} onClick={handleNav} className="cursor-pointer">Wie ben ik</Link>
                         </li>
                     </ul>
                     </nav>

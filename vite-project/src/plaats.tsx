@@ -1,9 +1,18 @@
 import catalpaboom from "/images/catalpaboom.jpg"
+import { motion } from "framer-motion"
 
 const Plaats : React.FC = () =>{
     return(
         <>
-            <div id='plaats' className='container mx-auto p-8 argent text-justify'>
+            <motion.div 
+            id='plaats' 
+            className='container mx-auto p-8 argent text-justify'
+            initial={{opacity: 0, y: -10}}
+            whileInView={{opacity: 1, y: 0}}
+            transition={{duration: 0.4, ease: "easeInOut"}}
+            viewport={{amount: 0.1}}
+            layout
+            >
                 <h2 className='text-4xl md:text-5xl w-full border-b text-center font-bold  mt-8 mb-4 md:mb-8'>De Plek</h2>
                 <div className='grid grid-cols-1 md:grid-cols-3 md:gap-16'>
                     <img className='w-[300px] m-auto rounded' src={catalpaboom} alt="mooie boom" />
@@ -24,7 +33,7 @@ const Plaats : React.FC = () =>{
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </>
     )
 }

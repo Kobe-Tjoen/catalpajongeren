@@ -4,6 +4,14 @@ export default {
     "./src/**/*.{html,js,jsx,ts,tsx}"
   ],
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+      circle: 'circle'
+    },
     extend: {},
   },
   plugins: [],

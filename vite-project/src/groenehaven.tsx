@@ -2,10 +2,19 @@ import bijenkorven from "/images/groenehaven.jpg"
 import tweekatten from "/images/tweekatten.jpg"
 import moestuin from "/images/moestuin.jpg"
 import schaapje from "/images/schaapje.jpg"
+import { motion } from "framer-motion"
 const GroeneHaven : React.FC = () =>{
     return(
         <>
-                <div id='groenehaven' className='container m-auto p-8 dark-green argent'>
+                <motion.div 
+                id='groenehaven' 
+                className='container m-auto p-8 dark-green argent'
+                initial={{opacity: 0, y:-10}}
+                whileInView={{opacity: 1, y:0}}
+                transition={{duration: 0.4, ease: "easeInOut"}}
+                viewport={{amount: 0.1}}
+                layout
+                >
 
                     <h2 className="md:text-5xl text-4xl text-center border-b mb-8 font-semibold">Groene haven voor jongeren</h2>
                     
@@ -14,9 +23,9 @@ const GroeneHaven : React.FC = () =>{
                             <h3 className="text-3xl  font-semibold">Voor wie?</h3>
                             <p className="text-2xl">Kinderen en jongeren van 11 tot 16 jaar die:</p>
                             <ul className="p-4 list-disc space-y-2">
-                                <li>dreigen of zijn uitgevallen op school</li>
+                                <li>dreigen uit te vallen of zijn uitgevallen op school</li>
                                 <li>nood hebben aan een structureel rustmoment</li>
-                                <li>nood hebben aan een omgeving die rust brengt.</li>
+                                <li>nood hebben aan een omgeving die rust brengt</li>
                             </ul>
                         </div>
                         <img src={tweekatten} alt="twee poezen het poortje" className="w-[350px] rounded m-auto mb-8"/>
@@ -24,10 +33,13 @@ const GroeneHaven : React.FC = () =>{
                         <img src={bijenkorven} alt="bijenkorven in de tuin" className="w-[400px] rounded m-auto mb-8 col-auto"/>
                         <div className="mx-auto mb-8">
                             <h3 className="text-3xl font-semibold">Wat gaan we doen?</h3>
-                            <ul className="p-4 list-disc space-y-1">
-                                <li>Onderhouden van tuin en moestuin</li>
-                                <li>Aanplanten, snoeien, wieden, verzorgen</li>
-                                <li>Zaaien van groenten en bloemen in serre</li>
+                            <ul className="p-4 list-disc space-y-2">
+                                <li>Onderhouden van tuin en moestuin:
+                                    <ul className="list-inside list-circle">
+                                        <li>Aanplanten, snoeien, wieden, verzorgen</li>
+                                        <li>Zaaien van groenten en bloemen in serre</li>
+                                    </ul>
+                                </li>
                                 <li>Verzorgen van kippen en schapen</li>
                                 <li>Tijd besteden bij de katten</li>
                                 <li>Brood bakken, soep maken, samen een gezonde maaltijd bereiden</li>
@@ -37,10 +49,10 @@ const GroeneHaven : React.FC = () =>{
 
                         <div className="mx-auto mb-8">
                             <h3 className="text-3xl font-semibold">Hoe?</h3>
-                            <ul className="text-lg list-outside list-disc p-4 space-y-2">
+                            <ul className="list-outside list-disc p-4 space-y-2">
                                 <li>Continue begeleiding</li>
                                 <li>Groepen van maximum twee jongeren</li>
-                                <li>Het werken gebeurt op het ritme van de jongeren</li>
+                                <li>Werken op het ritme van de jongeren</li>
                             </ul>
                         </div>
                         <img src={schaapje} alt="close up van een lief schaapje" className="w-[400px] rounded m-auto mb-8 col-auto" />
@@ -59,7 +71,7 @@ const GroeneHaven : React.FC = () =>{
                             </ul>
                         </div>
                     </div>
-                </div>
+                </motion.div>
         </>
     )
 }
