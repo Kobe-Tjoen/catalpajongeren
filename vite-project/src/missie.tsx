@@ -15,7 +15,7 @@ const Missie : React.FC = () =>{
             >
                 <h2 className='text-4xl md:text-5xl font-bold text-center mb-8 w-full border-b'>Missie</h2>
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
-                    <div className='text-justify m-auto md:text-lg col-span-2'>
+                    <div className='text-justify m-auto col-span-2'>
                         <p className='mb-16'>
                         We zorgen voor een veilige en groene haven voor jongeren die moeilijkheden ervaren op school of in hun leefomgeving. Ons doel is om jongeren de kans te bieden om te vertragen en zich te verbinden met de natuur in al haar facetten. Op deze manier proberen we de jongeren tot rust te brengen en hen de tools aan te reiken om zelf rust te kunnen vinden, ook te midden van de prikkels en druk van de buitenwereld.                    </p>
                         <p className='mb-8'>

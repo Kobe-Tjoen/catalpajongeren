@@ -4,6 +4,7 @@ import Plaats from './plaats';
 import Missie from './missie';
 import WieBenIk from './wiebenik';
 import Coaching from './coaching';
+import Contact from './contact';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <GroeneHaven/>
         <Coaching/>
         <WieBenIk/>
+        <Contact/>
       </main>
     </>
   )
