@@ -6,7 +6,7 @@ const Plaats : React.FC = () =>{
         <>
             <motion.div 
             id='plaats' 
-            className='container mx-auto p-8 argent text-justify'
+            className='container mx-auto p-8 argent sm:text-justify'
             initial={{opacity: 0, y: -10}}
             whileInView={{opacity: 1, y: 0}}
             transition={{duration: 0.4, ease: "easeInOut"}}
@@ -18,7 +18,7 @@ const Plaats : React.FC = () =>{
                     <img className='w-[300px] m-auto rounded' src={catalpaboom} alt="mooie boom" />
                     <div className="col-span-2">
                         <div className='my-8'>
-                            <p>Net na de Tweede Wereldoorlog kochten mijn grootouders dit huis. Het kreeg al snel de naam <b>‘De Catalpa’</b>, ter ere van de meer dan honderd jaar oude boom die majestueus in het midden van de tuin staat. Mijn grootouders stonden bekend om hun gastvrijheid en ‘De Catalpa’ werd al snel een geliefde ontmoetingsplek voor vrienden en familie om het leven te vieren na de verschrikkingen van de oorlog.</p>
+                            <p>Net na de Tweede Wereldoorlog kochten mijn grootouders dit huis. Het kreeg al snel de naam <b>‘De Catalpa’</b>, ter ere van de meer dan honderd jaar oude boom die majestueus in het midden van de tuin staat. Mijn grootouders stonden bekend om hun gastvrijheid en ‘De Catalpa’ werd een geliefde ontmoetingsplek voor vrienden en familie om het leven te vieren na de verschrikkingen van de oorlog.</p>
                             <p>Na het overlijden van mijn grootvader besloot mijn grootmoeder om alleen nog tijdens de zomermaanden in haar geliefde Catalpa te verblijven. Dit maakte dat het huis een toevluchtsoord werd voor vele familieleden tijdens verbouwingen, scheidingen en verhuizingen.</p>
                         </div>
                         <div className='my-8'>

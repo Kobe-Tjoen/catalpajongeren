@@ -59,10 +59,10 @@ const GroeneHaven : React.FC = () =>{
 
                         <img src={moestuin} alt="moestuin" className="m-auto rounded w-[400px]"/>
                         <div className="mx-auto">
-                            <h3 className="text-3xl font-semibold">Hoe ziet een dag eruit?</h3>
-                            <p className="p-4">De jongeren komen steeds per halve dag van 3uur in de voor- of namiddag. Dat kan 1 of 2 halve dagen per week zijn, naargelang de noden.</p>
-                            <p className="p-4">Een voorbeeld van een halve dag kan zijn:</p>
-                            <ul className="p-4 space-y-2">
+                            <h3 className="text-3xl font-semibold mb-4">Hoe ziet een dag eruit?</h3>
+                            <p className="mb-4">De jongeren komen steeds per halve dag van 3 uur in de voor- of namiddag. Dat kan 1 of 2 halve dagen per week zijn, naargelang de noden.</p>
+                            <p>Een voorbeeld van een halve dag kan zijn:</p>
+                            <ul className="space-y-2">
                                 <li><b>9u:</b> aankomst</li>
                                 <li><b>9u-10u:</b> verzorging dieren</li>
                                 <li><b>10u-10u30:</b> werken in tuin/ serre/ koken</li>

@@ -6,7 +6,7 @@ const Missie : React.FC = () =>{
         <>
             <motion.div 
             id='missie' 
-            className='container mx-auto mt-8 p-8 text-justify argent'
+            className='container mx-auto mt-8 p-8 sm:text-justify argent'
             initial={{opacity: 0, y: -10}}
             whileInView={{opacity: 1, y: 0}}
             transition={{duration: 0.4, ease: "easeInOut"}}

@@ -6,7 +6,7 @@ const Contact : React.FC = () =>{
     <>
 <motion.div 
             id="contact" 
-            className="container m-auto mt-8 p-8 text-justify argent items-center"
+            className="container m-auto mt-8 p-8 sm:text-justify argent items-center"
             initial={{opacity: 0, y: -10}}
             whileInView={{opacity: 1, y: 0}}
             transition={{duration: 0.4, ease: "easeInOut"}}
@@ -16,7 +16,7 @@ const Contact : React.FC = () =>{
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 w-full border-b">Contact</h2>
 
                 <div className="m-auto md:w-2/3">
-                    <h3 className="text-3xl font-semibold">Hoe starte op catalpa?</h3>
+                    <h3 className="text-3xl font-semibold">Hoe starten op De Catalpa?</h3>
                     <p className='mt-8 text-lg font-semibold'>Je bent steeds welkom voor een verkennend gesprek. Je kan een afspraken maken:</p>
                     <div className='space-y-2 mt-4'>
                         <p className='flex align-center'>
@@ -31,7 +31,7 @@ const Contact : React.FC = () =>{
                         </p>
                     </div>
 
-                    <p className='mt-4 text-lg font-semibold'>Aanmelding gebeurt steeds via: </p>
+                    <p className='mt-4 text-lg font-semibold'>Aanmelding gebeurt steeds door: </p>
                     <ul className='space-y-2'>
                         <li className='flex'>
                         Groene Zorg:
