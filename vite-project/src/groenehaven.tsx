@@ -34,12 +34,9 @@ const GroeneHaven : React.FC = () =>{
                         <div className="mx-auto mb-8">
                             <h3 className="text-3xl font-semibold">Wat gaan we doen?</h3>
                             <ul className="p-4 list-disc space-y-2">
-                                <li>Onderhouden van tuin en moestuin:
-                                    <ul className="list-inside list-circle">
-                                        <li>Aanplanten, snoeien, wieden, verzorgen</li>
-                                        <li>Zaaien van groenten en bloemen in serre</li>
-                                    </ul>
-                                </li>
+                                <li>Onderhouden van tuin en moestuin</li>
+                                <li>Aanplanten, snoeien, wieden, verzorgen</li>
+                                <li>Zaaien van groenten en bloemen in serre</li>
                                 <li>Verzorgen van kippen en schapen</li>
                                 <li>Tijd besteden bij de katten</li>
                                 <li>Brood bakken, soep maken, samen een gezonde maaltijd bereiden</li>

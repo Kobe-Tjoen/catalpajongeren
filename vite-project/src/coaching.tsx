@@ -30,7 +30,7 @@ const Coaching : React.FC = () =>{
                     <h3 className="text-3xl  font-semibold">Wat houdt het in?</h3>
                     <div className="my-4">
                         <p>De coaching is gericht op het herontdekken van innerlijke kracht en het aanpakken van uitdagingen. Ik stel geen diagnoses maar luister in een intakegesprek naar zowel de jongere als de ouders om de behoeften te begrijpen.</p>
-                        <p>De coaching sessies zijn dynamisch en flexibel, op maat gemaakt voor elke unieke jongere. We verkennen stress, begrijpen de gevolgen, ontdekken manieren om deze te verminderen. Samen identificeren we de bronnen van stress en ontwikkelen we strategieën om ermee om te gaan.</p>
+                        <p>De coachingsessies zijn dynamisch en flexibel, op maat gemaakt voor elke unieke jongere. We verkennen stress, begrijpen de gevolgen, ontdekken manieren om deze te verminderen. Samen identificeren we de bronnen van stress en ontwikkelen we strategieën om ermee om te gaan.</p>
                         <p>Elk traject is een persoonlijke reis, afgestemd op de individuele behoeften en dynamiek van de jongere.</p>
                     </div>
                 </div>
