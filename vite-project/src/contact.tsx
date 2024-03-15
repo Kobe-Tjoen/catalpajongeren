@@ -17,7 +17,7 @@ const Contact : React.FC = () =>{
 
                 <div className="m-auto md:w-2/3">
                     <h3 className="text-3xl font-semibold">Hoe starten op De Catalpa?</h3>
-                    <p className='mt-8 text-lg font-semibold'>Je bent steeds welkom voor een verkennend gesprek. Je kan een afspraak maken:</p>
+                    <p className='mt-8 text-lg font-semibold'>Je bent steeds welkom voor een verkennend gesprek. Je kan een afspraak maken via:</p>
                     <div className='space-y-2 mt-4'>
                         <p className='flex align-center'>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
